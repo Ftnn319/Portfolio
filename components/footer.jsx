@@ -1,4 +1,4 @@
-import { FaFacebook, FaDiscord, FaInstagram, FaGithub } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaGithub } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -28,7 +28,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h2 className="text-xl font-semibold mb-4">Follow Me</h2>
+          <h2 className="text-xl font-semibold mb-4">Socials</h2>
           <div className="flex space-x-6 text-xl">
             <a
               href="https://www.facebook.com/profile.php?id=100011665167377"
