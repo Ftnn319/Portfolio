@@ -24,7 +24,17 @@ export default function Footer() {
               +976 8836 9995
             </a>
           </p>
-          <p>Location: Ulaanbaatar, Mongolia</p>
+          <p>Location:{' '}
+          <a
+            href="https://www.google.com/maps/place/Ulaanbaatar,+Mongolia"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline"
+            >
+                Ulaanbaatar, Mongolia
+            </a>
+
+            </p>
         </div>
 
         <div>
