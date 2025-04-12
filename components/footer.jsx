@@ -39,14 +39,6 @@ export default function Footer() {
               <FaFacebook />
             </a>
             <a
-              href="https://discord.com/channels/1340300471604215879/1340300471604215883"
-              className="hover:text-blue-400"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaDiscord />
-            </a>
-            <a
               href="https://www.instagram.com/things_of_baljka/"
               className="hover:text-blue-400"
               target="_blank"
