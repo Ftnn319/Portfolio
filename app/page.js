@@ -6,6 +6,7 @@ import Header from "@/components/header";
 import { Card } from "@/components/card";
 import { Container } from "@/components/container";
 import { Exp } from "@/components/workexp";
+import Footer from "@/components/footer";
 export default function Home() {
   const refs = {
     home: useRef(null),
@@ -13,6 +14,7 @@ export default function Home() {
     portfolio: useRef(null),
     price: useRef(null),
     blog: useRef(null),
+    talk: useRef(null),
   }
   const handleScroll = (section) => {
     refs[section]?.current?.scrollIntoView({ behavior: "smooth" })
@@ -31,6 +33,9 @@ export default function Home() {
     </div>
     <div ref={refs.price}>
       <Exp/>
+    </div>
+    <div ref={refs.talk} >
+      <Footer/>
     </div>
   </div>
   );

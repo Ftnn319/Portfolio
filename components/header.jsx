@@ -31,7 +31,7 @@ export default function Header({onNavigate}) {
             </div>
           </nav>
           <div className="flex items-center space-x-4">
-            <Button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-colors hidden md:block">
+            <Button onClick={()=>onNavigate("talk")} className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-colors hidden md:block">
               Let's Talk
             </Button>
             <MobileMenu />
